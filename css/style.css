@@ -2,4 +2,145 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+/* common */
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.common-pera {
+  font-size: 16px;
+  line-height: 26px;
+}
+.white-pera {
+  color: #fff;
+}
+.light-gray-pera {
+  color: #5a5a5d;
+}
+.dark-rgb-pera {
+  color: rgba(19, 19, 24, 0.7);
+}
+section {
+  margin-top: 100px;
+}
+.common-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.common-btn {
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  border: 0;
+  padding: 16px 34px;
+  margin-top: 20px;
+}
+/* common ends */
+nav {
+  padding: 40px 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 60px;
+  margin-right: 16px;
+}
+.website-name h2 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.website-name span {
+  color: #ff5400;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+}
+#home {
+  color: #ff5400;
+  font-weight: 700;
+}
+/* header */
+.header {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.header-content {
+  width: 60%;
+  margin: 0 auto;
+}
+.header-content h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+}
+.header-content p {
+  margin: 30px 40px;
+  line-height: 26px;
+}
+.form {
+  display: flex;
+}
+/* popular tour */
+.popular-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(19, 19, 24, 0.7);
+}
+.popular-text {
+  flex-basis: 50%;
+  padding-right: 50px;
+}
+.popular-text > p {
+  margin: 20px 0px;
+}
+.popular-img {
+  flex-basis: 50%;
+  padding-left: 40px;
+}
+.popular-text ul {
+  padding-left: 30px;
+}
+.popular-text ul li {
+  padding: 10px 0px;
 }
