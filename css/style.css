@@ -68,7 +68,7 @@ section {
 }
 /* common ends */
 nav {
-  padding: 40px 0px;
+  padding: 10px 0px 20px;
 }
 .menubar{
   display: none;
@@ -83,8 +83,8 @@ nav {
   align-items: center;
 }
 .logo-img {
-  width: 60px;
-  margin-right: 16px;
+  width: 120px;
+  margin-right: 6px;
 }
 .website-name h2 {
   color: #131318;
