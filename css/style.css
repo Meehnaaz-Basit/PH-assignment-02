@@ -209,18 +209,34 @@ nav {
 /* choose us */
 .choose-us-content{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: auto auto;
 gap: 20px;
-margin-top: 20px;
+margin-top: 60px;
 }
 .choose-item {
   border-radius: 16px;
   padding: 50px;
- 
+  
+}
+.choose-item-three{
+  grid-column:  span 2;
+  width: 50%;
+  margin: 0 auto;
 }
 .pink{
+  border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
+}
+.blue{
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.purple{
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
 }
 .icon {
   width: 70px;
@@ -229,6 +245,83 @@ margin-top: 20px;
 .choose-item h4{
     margin: 24px 0px;
 }
-..choose-item p{
+.choose-item p{
     margin-bottom: 0;
+}
+/* newsletter */
+.newsletter-content{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 0.4fr 0.6fr;
+}
+.newsletter-form{
+  padding: 40px;
+  border-radius: 16px;
+border: 1px solid #FF5400;
+}
+.newsletter-form h3{
+color: #131318;
+font-size: 36px;
+font-weight: 800;
+text-transform: capitalize;
+margin-bottom: 20px;
+}
+.horizontal-line{
+  background: rgba(19, 19, 24, 0.10);
+  width: 100%;
+  height: 1px;
+  margin: 30px 0px;
+}
+.newsletter-form p{
+  padding-right: 50px;
+}
+.newsletter-input input{
+ width: 100%;
+ padding: 20px;
+ margin: 10px 0px;
+ border-radius: 8px;
+ border: none;
+ outline: none;
+background: rgba(19, 19, 24, 0.05);
+}
+.newsletter-input input::placeholder{
+  color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+
+}
+.newsletter-btn{
+  border-radius: 8px;
+  border: 0;
+  color: #fff;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+   padding: 16px;
+    margin: 10px 0px;
+    cursor: pointer;
+background-color: #FF5400;
+}
+.newsletter-img{
+  position: relative;
+}
+.tag{
+  position: absolute;
+    bottom: 65px;
+    right: 10px;
+    transform: rotate(-22deg);
+ color: #FFF;
+ border-radius: 16px;
+background: #FF5400;
+width: 50%;
+text-align: center;
+padding: 24px 40px;
+}
+.tag p{
+  color: #FFF;
+font-size: 24px;
+
+}
+.tag h4{
+font-size: 32px;
+font-weight: 800;
 }
