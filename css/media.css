@@ -126,7 +126,6 @@
   .line {
     background: rgba(244, 244, 244, 0.288);
     width: 60%;
-
     height: 1px;
     margin: 20px auto;
   }
@@ -137,7 +136,7 @@
     grid-template-columns: 1fr;
   }
   .tag {
-    bottom: 50px;
+    bottom: 65px;
     right: 10px;
     transform: rotate(-22deg);
     color: #fff;
