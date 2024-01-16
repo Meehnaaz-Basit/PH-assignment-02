@@ -46,6 +46,12 @@ section {
   border: 0;
   padding: 16px 34px;
   margin-top: 20px;
+  cursor: pointer;
+    transform: .5s;
+}
+.common-btn:hover{
+  background: #ff5500c0;
+  transform: .5s;
 }
 .section-heading {
   text-align: center;
@@ -132,7 +138,23 @@ nav {
   line-height: 26px;
 }
 .form {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.192);
+  padding: 20px;
+  border-radius: 8px;
+}
+.form input, .form select, .form button{
+padding: 14px 10px;
+border-radius: 8px;
+cursor: pointer;
+border: 0;
+outline: 0;
+}
+.form button{
+  background-color: #FF5400;
+  color: #FFF;
 }
 /* popular tour */
 .popular-content {
@@ -198,7 +220,7 @@ nav {
   top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-
+text-align: center;
   z-index: 2;
 }
 .gal-name h4 {

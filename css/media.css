@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
   /* gallery */
   .gallery-one {
     grid-template-columns: 1fr;
