@@ -209,6 +209,10 @@
     flex-basis: 50%;
     padding-left: 10px;
   }
+  /*  */
+  .gal-name h4 {
+    font-size: 23px;
+  }
   /* newsletter */
   .newsletter-content {
     gap: 20px;
